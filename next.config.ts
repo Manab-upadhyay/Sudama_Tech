@@ -4,7 +4,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "www.aceternity.com",
+        hostname: "aceternity.com",
       },
     ],
     minimumCacheTTL: 60, // Cache for 1 minute

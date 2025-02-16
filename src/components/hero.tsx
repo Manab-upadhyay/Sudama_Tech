@@ -9,8 +9,6 @@ import {
 } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { cn } from "@/app/lib/util";
-
 
 export const HeroParallax = ({
   products,
@@ -106,7 +104,7 @@ export const HeroParallax = ({
 export const Header = () => {
   return (
     <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
-      <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
+      <h1 className="text-2xl md:text-7xl font-bold  text-black">
         The Ultimate <br /> development studio
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
@@ -145,8 +143,7 @@ export const ProductCard = ({
         className="block group-hover/product:shadow-2xl "
       >
         <img
-        src=
-          {product.thumbnail}
+          src={product.thumbnail}
           height="600"
           width="600"
           className="object-cover object-left-top absolute h-full w-full inset-0"
