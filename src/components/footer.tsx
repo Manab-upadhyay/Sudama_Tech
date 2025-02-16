@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="hidden md:grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-center md:text-left">
           {/* Company Info */}
           <div>
-            <h3 className="text-lg font-semibold">Sudama Solutions & Cyber Technology</h3>
+            <h3 className="text-lg font-semibold">Sudama Solutions </h3>
             <p className="text-gray-600 mt-2">
               Elevating your digital experience with innovation and creativity.
             </p>
