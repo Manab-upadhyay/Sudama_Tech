@@ -47,7 +47,7 @@ export default function Footer() {
 
         {/* Copyright text - Always visible */}
         <div className="border-t border-gray-300 mt-6 pt-6 text-center text-gray-600 text-sm">
-          &copy; {new Date().getFullYear()} Sudama Solutions & Cyber Technology. All rights reserved.
+          &copy; {new Date().getFullYear()} Sudama Solutions
         </div>
       </div>
     </footer>

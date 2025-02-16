@@ -70,7 +70,7 @@ export default function Home() {
 
       {/* Conditionally render the component based on screen size */}
       {isMobile ? <ServicesMobile /> : <HeroParallaxDemo />}
-
+    
       <ScrollingLogos />
       <TextRevealCardPreview />
       
