@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-4 bg-white left-1/2 transform -translate-x-1/2 w-[90%] md:w-[70%] bg-black bg-opacity-10 backdrop-blur-md border border-white/20 rounded-2xl px-6 py-4 flex justify-between items-center z-50 shadow-lg">
+    <nav className="fixed top-4 bg-black left-1/2 transform -translate-x-1/2 w-[90%] md:w-[70%] bg-black bg-opacity-10 backdrop-blur-md border border-white/20 rounded-2xl px-6 py-4 flex justify-between items-center z-50 shadow-lg">
       {/* Logo */}
       <Link href={"/"} className="flex items-center space-x-2">
   <img src="/logoss.jpg" className="w-8" alt="Logo" />
@@ -49,7 +49,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="absolute top-16 left-0 w-full bg-white bg-opacity-90 backdrop-blur-md shadow-lg rounded-xl p-5 md:hidden">
+        <div className="absolute top-14 left-0 w-full bg-white shadow-md p-5 md:hidden">
           <ul className="flex flex-col items-center space-y-4 text-black">
             {[
               { name: "Home", path: "/" },
