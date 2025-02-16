@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <>
     
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-20 mt-4">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-20 mt-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
           {/* Left Column: Text Content */}
           <div className="space-y-6 md:space-y-8 text-center lg:text-left">
