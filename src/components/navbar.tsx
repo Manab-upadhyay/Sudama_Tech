@@ -19,7 +19,7 @@ const Navbar = () => {
       {/* Logo */}
       <Link href={"/"} className="flex items-center space-x-2">
   <img src="/logoss.jpg" className="w-8" alt="Logo" />
-  <span className="text-black font-semibold">Sudama Solutions & Cyber Technology</span>
+  <span className="text-black font-semibold">Sudama Solutions</span>
 </Link>
 
 
@@ -57,7 +57,7 @@ const Navbar = () => {
             {[
               { name: "Home", path: "/" },
               { name: "About", path: "/about" },
-              { name: "Services", path: "/services" },
+           
               { name: "Contact", path: "/contact" },
             ].map((item, index) => (
               <li key={index} className="relative group">

@@ -7,29 +7,29 @@ export function HeroParallaxDemo() {
 }
 export const products = [
   {
-    title: "Moonbeam",
+    title: "Sass-Products",
     link: "https://gomoonbeam.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+      "https://img.freepik.com/free-vector/saas-software-as-service-isometric-landing-page_107791-1770.jpg",
   },
   {
-    title: "Cursor",
+    title: "Web-Devlopmenet",
     link: "https://cursor.so",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+      "	https://img.freepik.com/premium-photo/programming-…son-working-with-codes-computer_23-2150010150.jpg",
   },
   {
-    title: "Rogue",
+    title: "UI-UX",
     link: "https://userogue.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/rogue.png",
+      "https://img.freepik.com/free-vector/gradient-ui-ux-elements-collection_79603-1923.jpg",
   },
 
   {
-    title: "Editorially",
+    title: "Sass-Sofware",
     link: "https://editorially.org",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editorially.png",
+      "https://img.freepik.com/free-vector/saas-software-as-service-isometric-landing-page_107791-1770.jpg",
   },
   {
     title: "Editrix AI",
@@ -45,58 +45,27 @@ export const products = [
   },
 
   {
-    title: "Algochurn",
+    title: "Graphic-Design",
     link: "https://algochurn.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
+      "	https://img.freepik.com/free-vector/cartoon-graphic-design-landing-page_52683-70881.jpg",
   },
   {
-    title: "Aceternity UI",
+    title: "Word-Press",
     link: "https://ui.aceternity.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
+      "	https://tutorialcrawler.com/wp-content/uploads/2020/06/Wordpress.jpg",
   },
   {
-    title: "Tailwind Master Kit",
+    title: "Migration",
     link: "https://tailwindmasterkit.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
+      "	https://img.freepik.com/free-vector/digital-data-migration-isometric-landing-page_107791-2683.jpg",
   },
   {
-    title: "SmartBridge",
+    title: "Digital Marketing",
     link: "https://smartbridgetech.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
-  },
-  {
-    title: "Renderwork Studio",
-    link: "https://renderwork.studio",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/renderwork.png",
-  },
-
-  {
-    title: "Creme Digital",
-    link: "https://cremedigital.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
-  },
-  {
-    title: "Golden Bells Academy",
-    link: "https://goldenbellsacademy.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png",
-  },
-  {
-    title: "Invoker Labs",
-    link: "https://invoker.lol",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/invoker.png",
-  },
-  {
-    title: "E Free Invoice",
-    link: "https://efreeinvoice.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/efreeinvoice.png",
-  },
+      "	https://img.freepik.com/free-vector/digital-marketing-landing-page_33099-1726.jpg",
+  }
 ];

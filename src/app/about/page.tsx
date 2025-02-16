@@ -7,7 +7,7 @@ const About = () => {
     <div className="bg-white text-black min-h-screen">
       {/* Hero Section */}
       <section className="text-center py-20 px-6">
-        <h1 className="text-5xl font-bold mb-4">About Us</h1>
+        <h1 className="text-5xl font-bold mb-4 mt-10">About Us</h1>
         <p className="text-lg max-w-2xl mx-auto text-gray-600">
           We are a team of passionate freelancers dedicated to helping brands
           grow with innovative and creative digital solutions.

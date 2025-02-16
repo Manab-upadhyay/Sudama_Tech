@@ -37,7 +37,7 @@ export default function Home() {
               an agency and provide solutions on various topics. Have an awesome idea to get started?
             </p>
             <Link href={'/contact'}>
-              <button className="bg-black text-white px-6 py-2 sm:px-8 sm:py-3 rounded-md hover:bg-gray-800 transition-colors flex items-center gap-2 mx-auto lg:mx-0">
+              <button className="bg-black text-white px-6 py-2 sm:px-8 sm:py-3 rounded-md hover:bg-gray-800 transition-colors flex items-center gap-2 mx-auto lg:mx-0 mt-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
