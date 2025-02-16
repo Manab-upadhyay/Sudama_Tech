@@ -46,7 +46,7 @@ export default function Footer() {
 
         {/* Divider */}
         <div className="border-t border-gray-700 mt-6 pt-6 text-center text-gray-400 text-sm">
-          &copy; {new Date().getFullYear()} YourBrand. All rights reserved.
+          &copy; {new Date().getFullYear()} <img src="/logoss"/>. All rights reserved.
         </div>
       </div>
     </footer>
