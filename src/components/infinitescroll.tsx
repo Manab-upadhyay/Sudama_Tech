@@ -16,9 +16,9 @@ const technologies = [
 const InfiniteScroll = () => {
   return (
     <div className="relative w-[800px] mx-auto overflow-hidden bg-white py-10">
-      <p className="text-center text-gray-600 mb-4">
-        We develop with several technologies, including:
-      </p>
+    <p className="text-center text-gray-600 mb-4 px-4 md:px-0">
+  We develop with several technologies, including:
+</p>
 
       {/* Scrolling Container */}
       <div className="relative flex w-[250%] overflow-hidden">
