@@ -8,7 +8,7 @@ import Footer from "@/components/footer";
 import Link from "next/link";
 import ServicesMobile from "@/components/mobile"; // ✅ Fixed Import
 import { useEffect, useState } from "react";
-
+import OurClients from "@/components/our-clients";
 export default function Home() {
   const [isMobile, setIsMobile] = useState(false);
 
@@ -70,6 +70,8 @@ export default function Home() {
 
       {/* Conditionally render the component based on screen size */}
       {isMobile ? <ServicesMobile /> : <HeroParallaxDemo />}
+      <hr></hr>
+<OurClients></OurClients>
     
       <ScrollingLogos />
       <TextRevealCardPreview />

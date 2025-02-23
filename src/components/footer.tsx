@@ -8,7 +8,9 @@ export default function Footer() {
         <div className="hidden md:grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-center md:text-left">
           {/* Company Info */}
           <div>
-            <h3 className="text-lg font-semibold">Sudama Solutions </h3>
+          <img src="/logoss.jpg" className="w-16 h-auto" alt="Sudama Solutions Logo" />
+<h3 className="text-lg font-semibold">Sudama Solutions</h3>
+
             <p className="text-gray-600 mt-2">
               Elevating your digital experience with innovation and creativity.
             </p>
@@ -20,7 +22,6 @@ export default function Footer() {
             <ul className="mt-3 space-y-2">
               <li><a href="#" className="text-gray-600 hover:text-black">Home</a></li>
               <li><a href="#" className="text-gray-600 hover:text-black">About</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-black">Services</a></li>
               <li><a href="#" className="text-gray-600 hover:text-black">Contact</a></li>
             </ul>
           </div>
