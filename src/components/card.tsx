@@ -17,8 +17,13 @@ export function TextRevealCardPreview() {
         <TextRevealCardTitle className="text-3xl font-bold">
           Got Some Awesome Ideas?
         </TextRevealCardTitle>
-        <TextRevealCardDescription className="flex items-center justify-center text-white text-lg gap-2">
-          <FaPhoneAlt className="text-white cursor-pointer" /> Just a Call Away
+        <TextRevealCardDescription className="flex items-center justify-center mt-5">
+          <a
+            href="tel:+9957052223"
+            className="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-blue-700 transition duration-300"
+          >
+            <FaPhoneAlt className="text-white" /> Just a Call Away
+          </a>
         </TextRevealCardDescription>
       </TextRevealCard>
     </div>
