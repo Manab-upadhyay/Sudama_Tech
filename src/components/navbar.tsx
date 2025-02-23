@@ -19,7 +19,7 @@ const Navbar = () => {
       {/* Logo */}
       <Link href={"/"} className="flex items-center space-x-2">
   <img src="/logoss.jpg" className="w-8" alt="Logo" />
-  <span className="text-black font-semibold">Sudama Solutions</span>
+  <span className="text-black font-semibold">SudamaSolutions Technology</span>
 </Link>
 
 

@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Company Info */}
           <div>
           <img src="/logoss.jpg" className="w-16 h-auto" alt="Sudama Solutions Logo" />
-<h3 className="text-lg font-semibold">Sudama Solutions</h3>
+<h3 className="text-lg font-semibold">SudamaSolutions Technology</h3>
 
             <p className="text-gray-600 mt-2">
               Elevating your digital experience with innovation and creativity.
