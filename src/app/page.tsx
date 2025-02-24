@@ -9,6 +9,7 @@ import Link from "next/link";
 import ServicesMobile from "@/components/mobile"; // ✅ Fixed Import
 import { useEffect, useState } from "react";
 import OurClients from "@/components/our-clients";
+import { ReactTyped } from "react-typed";
 export default function Home() {
   const [isMobile, setIsMobile] = useState(false);
 
@@ -29,9 +30,14 @@ export default function Home() {
   <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
     {/* Left Column: Text Content */}
     <div className="space-y-6 md:space-y-8 text-center lg:text-left">
-      <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-      You dream, We build
-      </h1>
+    <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+  <ReactTyped
+    strings={["You dream, We build"]}
+    typeSpeed={100}
+    backSpeed={50}
+    showCursor={false}
+  />
+</h1>
       <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto lg:mx-0">
         Step into a world where innovation knows no bounds. We are the architects of tomorrow, transforming visionary ideas into groundbreaking realities. From sleek software solutions to revolutionary hardware advancements, we create experiences that push the limits of what’s possible. Ready to embark on a journey of innovation? Let’s shape the future together.
       </p>
