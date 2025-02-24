@@ -68,7 +68,7 @@ export default function Home() {
           {/* Right Column: Image */}
           <div className="relative mt-8 lg:mt-0">
             <img
-              src="https://www.cybersync-technologies.com/_astro/hero.6fdd0dc6_WxIWw.webp"
+              src="	https://img.freepik.com/free-vector/web-developmen…ation-design-cartoon-illustration_107791-3863.jpg"
               alt="Astronaut with rocket illustration"
               className="w-full h-auto max-w-md mx-auto lg:max-w-none"
             />
